@@ -1,0 +1,123 @@
+/* SchoolForm.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: url("img.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* Form container */
+.school-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: transparent;
+  color: blue;
+}
+
+.school-form h2 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Form label styles */
+.school-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.school-form .input-box {
+  color: #fff;
+}
+
+/* Input field styles */
+.school-form input[type="text"],
+.school-form input[type="number"],
+.school-form input[type="radio"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+/* Submit button styles */
+.school-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.school-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Form section heading styles */
+.school-form h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Display area for inputted values */
+.school-form .display-area {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Styling for individual displayed values */
+.school-form .display-item {
+  margin-bottom: 5px;
+}
+
+/* Lunch options container */
+.school-form .lunch-options {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Individual lunch option */
+.school-form .lunch-option {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Radio input for lunch options */
+.school-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.school-form label.lunch-label {
+  margin-left: 5px;
+}
+
+.fav-option label {
+  font-size: 40px;
+  text-align: center;
+}
+
+.container-option {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+}
